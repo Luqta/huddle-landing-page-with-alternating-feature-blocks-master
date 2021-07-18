@@ -1,0 +1,382 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root{
+    --primaryColor: hsl(322, 100%, 66%);
+    --primaryColorHover: hsla(322, 100%, 66%, 0.815);
+
+    --neutral1: hsl(193, 100%, 96%);
+    --neutral2: hsl(192, 100%, 9%);
+    --neutral3: hsl(208, 11%, 55%);
+
+    --openSans: 'Open Sans', sans-serif;
+    --Poppins: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    font-family: var(--Poppins);
+    font-weight: 600;
+    color: var(--neutral2);
+}
+
+p{
+    font-family: var(--openSans);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header{
+    padding: 25px 60px 50px 60px;
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-color:var(--neutral1);
+}
+
+#logoContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+
+    margin-bottom: 50px;
+}
+
+#logoContainer img{
+    max-width: 50%;
+}
+
+#logoContainer input[type="button"]{
+    min-width: 100px;
+    max-width: 250px;
+    background-color: white;
+
+    color: var(--neutral2);
+    font-family: var(--openSans);
+    font-weight: 700;
+
+    border: none;
+    border-radius: 25px;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.363);
+}
+
+#logoContainer input[type="button"]:hover{
+    cursor: pointer;
+    color: var(--neutral3);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.24);
+    transition: .5s;
+}
+
+#mockupContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#mockupContainer div{
+    max-width: 500px;
+    min-width: 200px;
+}
+
+#mockupContainer h1{
+    max-width: 375px;
+}
+
+#mockupContainer p{
+    text-align: justify;
+    margin: auto;
+    max-width: 300px;
+    min-width: 150px;
+
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#mockupContainer input[type="button"]{
+    background-color: var(--primaryColor);
+    border: none;
+
+    min-width: 250px;
+    max-width: 350px;
+    min-height: 40px;
+    max-height: 50px;
+
+    color: var(--neutral1);
+    font-family: var(--openSans);
+
+    border: none;
+    border-radius: 25px;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.363);
+}
+
+#mockupContainer input[type="button"]:hover{
+    cursor: pointer;
+    background-color: var(--primaryColorHover);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.24);
+    transition: .5s;
+}
+
+#mockupContainer img{
+    min-width: 300px;
+    max-width: 50%;
+}
+
+main{
+    max-width: 1200px;
+    min-width: 200px;
+    margin: auto;
+
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.mainContainer{
+    max-width: 1000px;
+    min-width: 200px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 40px 50px 40px;
+
+    border-radius: 10px;
+    box-shadow: 0px 4px 18px 3px rgb(0 0 0 / 36%);
+
+    margin-bottom: 50px;
+}
+
+.mainContainer img{
+    width: 50%;
+}
+
+.textContainer{
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.textContainer p{
+    color: var(--neutral3);
+    margin-top: 25px;
+}
+
+footer{
+    background-color: var(--neutral2);
+    color: var(--neutral1);
+    font-family: var(--openSans);
+}
+
+#sobrepositionCard{
+    position: relative;
+    top: -100px;
+    padding: 50px 0px 50px 0px;
+
+    text-align: center;
+    background-color: var(--neutral1);
+
+    color: var(--neutral2);
+    font-family: var(--Poppins);
+
+    margin: auto;
+
+    max-width: 600px;
+    min-width: 200px;
+
+    border-radius: 10px;
+}
+
+#sobrepositionCard h1{
+    margin: auto;
+    min-width: 125px;
+}
+
+#sobrepositionCard input[type="button"]{
+    margin-top: 20px;
+    border: none;
+
+    background-color: var(--primaryColor);
+    color: var(--neutral1);
+
+    max-width: 400px;
+    min-width: 200px;
+    min-height: 50px;
+    max-height: 100px;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.363);
+
+    border-radius: 25px;
+}
+
+#sobrepositionCard input[type="button"]:hover{
+    cursor: pointer;
+    background-color: var(--primaryColorHover);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.24);
+    transition: .5s;
+}
+
+
+footer section{
+    max-width: 1000px;
+    min-width: 150px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer div img{
+    min-width: 120px;
+    max-width: 200px;
+} 
+
+#footerInfo{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 75px 50px 50px;
+}
+
+#ulLeft{
+    list-style-type: none;
+    max-width: 250px;
+    font-size: 0.7em;
+    margin-right: 100px;;
+}
+
+#ulLeft span{
+    max-width: 300px;
+    min-width: 150px;
+}
+
+#ulLeft li{
+    margin-bottom: 15px;
+}
+
+#locationLi{
+    list-style-image: url(../images/icon-location.svg);
+}
+
+#phoneLi{
+    list-style-image: url(../images/icon-phone.svg);
+}
+
+#mailLi{
+    list-style-image: url(../images/icon-email.svg);
+}
+
+#ulLeft span{
+    display: block;
+    margin-left: 15px;
+}
+
+#ulRight{
+    list-style: none;
+    column-count: 2;
+    column-gap: 100px;
+    
+    margin-right: 100px;
+}
+
+#ulRight li{
+    margin-bottom: 15px;
+}
+
+#ulRight li a{
+    color: var(--neutral1);
+    text-decoration: none;
+}
+
+#ulRight li a:hover{
+    text-decoration: underline;
+}
+
+.socialIcon{
+    margin-right: 25px;
+}
+
+.socialIcon:hover{
+    cursor: pointer;
+}
+
+.socialIcon:hover path{
+    fill: var(--primaryColor);
+    transition: .5s;
+}
+
+#copyrightContainer{
+    text-align: right;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin:auto;
+    margin-top: 25px;
+    font-family: var(--openSans);
+    font-weight: 400;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    font-weight: 600;
+}
+
+@media screen and (max-width: 900px){
+    header{
+        background-image: url(../images/bg-hero-mobile.svg);
+        padding: 20px 15px 0px 15px;
+    }
+
+    #mockupContainer{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        padding: 25px 60px 50px 60px;
+    }
+
+    #mockupContainer p{
+        text-align: center;
+    }
+
+    #mockupContainer input[type="button"]{ 
+        margin-bottom: 50px;
+    }
+
+    .mainContainer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #ulRight{
+        column-count: 1;
+        column-gap: 0;
+        
+        margin-right: 0;
+    }
+
+    footer section{
+        flex-direction: column;
+    }
+
+    footer section div{
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #copyrightContainer{
+        text-align: center;
+    }
+}
