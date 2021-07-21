@@ -56,7 +56,6 @@ Usuários poderão:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- Javascript
 
 ## Author
 
