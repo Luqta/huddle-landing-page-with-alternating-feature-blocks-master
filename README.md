@@ -46,7 +46,7 @@ Usuários poderão:
 
 ### Links
 
-- Live Site URL: [github.io](https://luqta.github.io/loopstudios-landing-page-main/)
+- Live Site URL: [github.io](https://luqta.github.io/huddle-landing-page-with-alternating-feature-blocks-master/)
 
 ## My process
 
